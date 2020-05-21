@@ -7,6 +7,7 @@ addons:
     packages:
       - g++-5
 install:
+ - echo "${DIR}"
  - sudo apt-get install libgtest-dev
  - sudo apt-get install cmake
  - cd /usr/src/gtest
@@ -14,7 +15,6 @@ install:
  - sudo make
  - sudo cp *.a /usr/lib
  - cd /home
- - ls
  
 before_script: cd calculadora
 script:
