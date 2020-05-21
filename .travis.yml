@@ -7,7 +7,7 @@ addons:
     packages:
       - g++-5
 install:
- - echo "${DIR}"
+ - echo $(dirname $(readlink -f ".travis.yml"))
  - sudo apt-get install libgtest-dev
  - sudo apt-get install cmake
  - cd /usr/src/gtest
