@@ -1,6 +1,5 @@
 dist: trusty
 language: cpp
-install: make get-gtest
 addons:
     packages:
       - g++-5
