@@ -13,7 +13,7 @@ install:
  - sudo cmake CMakeLists.txt
  - sudo make
  - sudo cp *.a /usr/lib
- - cd /
+ - cd /home
  - ls
  
 before_script: cd calculadora
