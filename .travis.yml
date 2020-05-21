@@ -7,14 +7,13 @@ addons:
     packages:
       - g++-5
 install:
- - echo $(dirname $(readlink -f ".travis.yml"))
  - sudo apt-get install libgtest-dev
  - sudo apt-get install cmake
  - cd /usr/src/gtest
  - sudo cmake CMakeLists.txt
  - sudo make
  - sudo cp *.a /usr/lib
- - cd /home
+ - cd /home/travis/build/Domtaxx/Travis_integration_C-
  
 before_script: cd calculadora
 script:
