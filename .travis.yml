@@ -1,6 +1,7 @@
 dist: trusty
 sudo: false
 language: cpp
+before_script: cd build-calculadora-Desktop-Debug
 script:
   - cmake .
   - cmake --build . -- -j2
