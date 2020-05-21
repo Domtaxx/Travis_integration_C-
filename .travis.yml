@@ -1,5 +1,4 @@
 dist: trusty
-sudo: false
 language: cpp
 addons:
   apt:
@@ -7,6 +6,8 @@ addons:
       - ubuntu-toolchain-r-test
     packages:
       - g++-5
+install:
+  - sudo apt-get install libgtest-dev
 before_script: cd calculadora
 script:
   - CXX=/usr/bin/g++-5 CC=/usr/bin/gcc-5 cmake .
