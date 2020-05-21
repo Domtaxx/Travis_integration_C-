@@ -1,8 +1,7 @@
-language: c++
-compiler:
-  -g++
-addons:
-  apt:
-    packages:
-      - cmake-data
-      - cmake
+dist: trusty
+sudo: false
+language: cpp
+script:
+  - cmake .
+  - cmake --build . -- -j2
+
