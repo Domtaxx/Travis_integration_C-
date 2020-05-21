@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="calculadora"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/domtaxx/Desktop/ Github Repositorios/Travis_integration_C++/build-calculadora-Desktop-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/ninja -v all"/>
+					<CompileFile command="/usr/bin/ninja -v &quot;$file&quot;"/>
+					<Clean command="/usr/bin/ninja -v clean"/>
+					<DistClean command="/usr/bin/ninja -v clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/domtaxx/Desktop/ Github Repositorios/Travis_integration_C++/build-calculadora-Desktop-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/ninja -v rebuild_cache"/>
+					<CompileFile command="/usr/bin/ninja -v &quot;$file&quot;"/>
+					<Clean command="/usr/bin/ninja -v clean"/>
+					<DistClean command="/usr/bin/ninja -v clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/domtaxx/Desktop/ Github Repositorios/Travis_integration_C++/build-calculadora-Desktop-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/ninja -v edit_cache"/>
+					<CompileFile command="/usr/bin/ninja -v &quot;$file&quot;"/>
+					<Clean command="/usr/bin/ninja -v clean"/>
+					<DistClean command="/usr/bin/ninja -v clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="calculadora">
+				<Option output="/home/domtaxx/Desktop/ Github Repositorios/Travis_integration_C++/build-calculadora-Desktop-Debug/calculadora" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/domtaxx/Desktop/ Github Repositorios/Travis_integration_C++/build-calculadora-Desktop-Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../include/c++/10.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/ninja -v calculadora"/>
+					<CompileFile command="/usr/bin/ninja -v &quot;$file&quot;"/>
+					<Clean command="/usr/bin/ninja -v clean"/>
+					<DistClean command="/usr/bin/ninja -v clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="calculadora/fast">
+				<Option output="/home/domtaxx/Desktop/ Github Repositorios/Travis_integration_C++/build-calculadora-Desktop-Debug/calculadora" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/domtaxx/Desktop/ Github Repositorios/Travis_integration_C++/build-calculadora-Desktop-Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../include/c++/10.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/ninja -v calculadora/fast"/>
+					<CompileFile command="/usr/bin/ninja -v &quot;$file&quot;"/>
+					<Clean command="/usr/bin/ninja -v clean"/>
+					<DistClean command="/usr/bin/ninja -v clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/domtaxx/Desktop/ Github Repositorios/Travis_integration_C++/calculadora/calculadora.cpp">
+			<Option target="calculadora"/>
+		</Unit>
+		<Unit filename="/home/domtaxx/Desktop/ Github Repositorios/Travis_integration_C++/calculadora/calculadora.hpp">
+			<Option target="calculadora"/>
+		</Unit>
+		<Unit filename="/home/domtaxx/Desktop/ Github Repositorios/Travis_integration_C++/calculadora/main.cpp">
+			<Option target="calculadora"/>
+		</Unit>
+		<Unit filename="/home/domtaxx/Desktop/ Github Repositorios/Travis_integration_C++/calculadora/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

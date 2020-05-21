@@ -1,0 +1,8 @@
+install: make get-deps
+compiler:
+  -g++
+addons:
+  apt:
+    packages:
+      - cmake-data
+      - cmake
