@@ -11,6 +11,7 @@ TEST(SUMAR, POSITIVENUM){
 }
 TEST(SUMA3, POSITIVENUM){
     ASSERT_EQ(14, sumar3(3,4,7));
+    ASSERT_EQ(15, sumar3(3,5,7));
 }
 int main(int argc, char** argv){
     testing::InitGoogleTest(&argc, argv);
