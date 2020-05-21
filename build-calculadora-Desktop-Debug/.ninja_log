@@ -1,6 +1,4 @@
 # ninja log v5
-0	1740	1590038606639484741	CMakeFiles/calculadora.dir/main.cpp.o	cc1386df7db1ff41
-335	400	1590037365040315426	calculadora	28ae5c73f750fa36
-1	49	1590038905366088540	CMakeFiles/calculadora.dir/calculadora.cpp.o	ddab6ab134ae4509
 1	807	1590038906122755717	CMakeFiles/calculadora.dir/main.cpp.o	cc1386df7db1ff41
 807	910	1590038906226089120	calculadora	89d7df851522d442
+1	49	1590038905366088540	CMakeFiles/calculadora.dir/calculadora.cpp.o	ddab6ab134ae4509

@@ -8,7 +8,7 @@
 					"build" : ".",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.5"
+						"string" : "3.2"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
@@ -38,7 +38,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "calculadora::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-calculadora-Debug-c50c9fe595a068abed45.json",
+					"jsonFile" : "target-calculadora-Debug-9c4c816ce36bddcfdd71.json",
 					"name" : "calculadora",
 					"projectIndex" : 0
 				}

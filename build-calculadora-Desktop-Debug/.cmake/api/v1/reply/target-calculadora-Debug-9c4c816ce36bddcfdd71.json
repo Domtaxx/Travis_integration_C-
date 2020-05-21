@@ -66,12 +66,11 @@
 				"role" : "flags"
 			},
 			{
-				"fragment" : "",
+				"fragment" : "-rdynamic",
 				"role" : "flags"
 			},
 			{
-				"backtrace" : 2,
-				"fragment" : "/usr/lib/libgtest.so",
+				"fragment" : "-lgtest",
 				"role" : "libraries"
 			},
 			{

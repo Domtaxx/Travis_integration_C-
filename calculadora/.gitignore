@@ -25,6 +25,7 @@ tags
 *.debug
 *.prl
 *.app
+makefiles*
 moc_*.cpp
 ui_*.h
 qrc_*.cpp
